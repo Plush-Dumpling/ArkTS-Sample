@@ -24,6 +24,15 @@ export struct ArkUiPage {
     this.components.push({ componentName: '9', pageUrl: '' })
     this.components.push({ componentName: '10', pageUrl: '' })
     this.components.push({ componentName: '11', pageUrl: '' })
+    this.components.push({ componentName: '11', pageUrl: '' })
+    this.components.push({ componentName: '11', pageUrl: '' })
+    this.components.push({ componentName: '11', pageUrl: '' })
+    this.components.push({ componentName: '11', pageUrl: '' })
+    this.components.push({ componentName: '11', pageUrl: '' })
+    this.components.push({ componentName: '11', pageUrl: '' })
+    this.components.push({ componentName: '11', pageUrl: '' })
+    this.components.push({ componentName: '11', pageUrl: '' })
+    this.components.push({ componentName: '11', pageUrl: '' })
   }
 
   @Builder
@@ -33,7 +42,7 @@ export struct ArkUiPage {
       .textAlign(TextAlign.Center)
       .fontSize(16)
       .fontWeight(FontWeight.Medium)
-      .fontColor($r('app.color.white'))
+      .fontColor($r('app.color.black'))
   }
 
   build() {

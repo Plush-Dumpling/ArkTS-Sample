@@ -10,4 +10,5 @@ export default class RouterPath {
 
 
   static readonly STATE_LOCAL_PATH = 'State_Local'
+  static readonly STATE_COMPUTED = 'Computed'
 }
