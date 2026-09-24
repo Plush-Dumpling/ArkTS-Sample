@@ -91,6 +91,14 @@
     {
       "name": "color_03",
       "value": "#F5DEB3"
+    },
+    {
+      "name": "color_04",
+      "value": "#A2B4DD"
+    },
+    {
+      "name": "color_05",
+      "value": "#EEF2F2"
     }
   ]
 }

@@ -1,5 +1,6 @@
 import { HMDefaultGlobalAnimator, HMNavigation } from '@hadss/hmrouter'
 import { AttributeUpdater } from '@kit.ArkUI'
+import RouterPath from '../constants/RouterPath';
 import { C } from '../utils/Class'
 
 @Entry
@@ -18,7 +19,7 @@ struct Index {
   build() {
     Column() {
       HMNavigation({
-        navigationId: 'indexNavigation', homePageUrl: 'ArkUi$HomePage', options: {
+        navigationId: 'indexNavigation', homePageUrl: RouterPath.ARK_DATA_PATH, options: {
           standardAnimator: HMDefaultGlobalAnimator.STANDARD_ANIMATOR,
           dialogAnimator: HMDefaultGlobalAnimator.DIALOG_ANIMATOR,
           modifier: this.navModifier

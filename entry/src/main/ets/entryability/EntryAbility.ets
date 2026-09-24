@@ -17,6 +17,7 @@ export default class EntryAbility extends UIAbility {
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onCreate');
     HMRouterMgr.openLog('INFO')
     HMRouterMgr.init({ context: this.context })
+    AppStorage.setOrCreate('appContext', this.context)
   }
 
   onDestroy() {

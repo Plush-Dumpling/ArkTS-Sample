@@ -38,7 +38,7 @@ export struct StatePage {
     this.components.push({ componentName: ComponentsName.STATE_LOCAL, pageUrl: RouterPath.STATE_LOCAL_PATH })
     this.components.push({ componentName: ComponentsName.STATE_LOCAL, pageUrl: RouterPath.STATE_LOCAL_PATH })
     this.components.push({ componentName: ComponentsName.STATE_LOCAL, pageUrl: RouterPath.STATE_LOCAL_PATH })
-    this.components.push({ componentName: ComponentsName.STATE_COMPUTED, pageUrl: RouterPath.STATE_COMPUTED })
+    this.components.push({ componentName: ComponentsName.STATE_COMPUTED, pageUrl: RouterPath.STATE_COMPUTED_PATH })
   }
 
   @Builder
