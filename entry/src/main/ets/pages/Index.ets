@@ -19,7 +19,7 @@ struct Index {
   build() {
     Column() {
       HMNavigation({
-        navigationId: 'indexNavigation', homePageUrl: RouterPath.ARK_DATA_PATH, options: {
+        navigationId: 'indexNavigation', homePageUrl: RouterPath.PROMISE_ASYNC_AWAIT, options: {
           standardAnimator: HMDefaultGlobalAnimator.STANDARD_ANIMATOR,
           dialogAnimator: HMDefaultGlobalAnimator.DIALOG_ANIMATOR,
           modifier: this.navModifier

@@ -12,4 +12,5 @@ export default class RouterPath {
   static readonly STATE_LOCAL_PATH = 'State_Local'
   static readonly STATE_COMPUTED_PATH = 'Computed'
   static readonly ARK_DATA_PATH = 'ArkData'
+  static readonly PROMISE_ASYNC_AWAIT = 'PromiseAsyncAwait'
 }
